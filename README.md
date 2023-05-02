@@ -6,6 +6,14 @@ Crack elasticsearch 7.x / 8.x by docker
 
 已测试版本
 * elasticsearch 8.2.0
+* elasticsearch 8.5.0
+* elasticsearch 8.7.0
+
+
+# 注意事项
+
+JDK版本，必须与ES使用的版本完全一致，即使是小版本。
+curl拉取github文件，网络不好会导致失败，建议全局代理。
 
 ## Usage
 
@@ -34,6 +42,16 @@ Get cracked x-pack-core-$version.jar
 ```shell
 cp output/x-pack-core-$version.crack.jar x-pack-core-$version.jar
 ```
+### 覆盖路径
+
+RPM包安装默认路径
+
+```shell
+/usr/share/elasticsearch/modules/x-pack-core/
+
+```
+
+
 
 ## Others
 You can change `crack.sh` shell with http_proxy / https_proxy url
