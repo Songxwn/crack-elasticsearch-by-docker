@@ -6,6 +6,7 @@ Crack elasticsearch 7.x / 8.x by docker
 
 已测试版本
 * elasticsearch 8.2.0
+* elasticsearch 8.5.0 (JDK 19.0)
 
 ## Usage
 
